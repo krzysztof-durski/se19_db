@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Update Task</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Update Task</h1>
+    <form action="" method="post">
+      <input type="text" name="title" value="{{ task.title }}" required />
+      <input type="text" name="description" value="{{ task.description }}" />
+      <label>
+        <input
+          type="checkbox"
+          name="completed"
+          {%
+          if
+          task.completed
+          %}checked{%
+          endif
+          %}
+        />
+        Completed
+      </label>
+      <button type="submit">Update Task</button>
+    </form>
+  </body>
+</html>

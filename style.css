@@ -1,0 +1,95 @@
+html {
+  background-color: #e2b1e0;
+  font-size: 15px;
+  font-family: "Atkinson Hyperlegible", monospace;
+  color: brown;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px #db98d1;
+}
+
+#title {
+  font-style: oblique;
+  text-align: center;
+  font-size: 50px;
+  color: #12a0dd;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+}
+
+footer {
+  padding: 100px;
+  padding-left: 0px;
+}
+
+button {
+  background-color: #12a0dd;
+  color: rgb(232, 11, 166);
+  font-size: 15px;
+  font-family: "Atkinson Hyperlegible", monospace;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  box-shadow: #023449 2px 2px 5px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(205, 112, 198);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top: black 2px solid;
+}
+
+.box {
+  padding: 10px;
+  background-color: #ee87ea;
+  border-radius: 15px;
+  box-shadow: #000000 1px 1px 10px;
+  margin: 20px auto;
+  width: 500px;
+}
+
+.subsection {
+  padding: 5px;
+  background-color: #ec5ce7;
+  border-radius: 15px;
+  box-shadow: #000000 1px 1px 10px;
+  margin: 10px auto;
+  width: 250px;
+  height: 250px;
+  img {
+    display: block;
+    margin: 5px auto;
+    max-width: 70%;
+    border-radius: 10px;
+    box-shadow: #000000 1px 1px 10px;
+  }
+  h2 {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    padding-top: 0px auto;
+  }
+}
